@@ -1,3 +1,4 @@
+# https://www.kaggle.com/vasilkor/complete-process-using-resnet-as-a-starting-point
 
 from keras.models import Model, load_model
 import os
