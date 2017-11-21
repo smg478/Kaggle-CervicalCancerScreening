@@ -1,4 +1,3 @@
-
 from __future__ import division
 
 import os.path
@@ -46,8 +45,7 @@ from sklearn.metrics import log_loss
 from subprocess import check_output
 print(check_output(["ls", "../input"]).decode("utf8"))
 
-
-#------------------------------------------------------------------------------------------------
+#-------------------------------------- Definitions ----------------------------------------------------------
 
 def get_im_cv2(path):
     img = cv2.imread(path)
@@ -159,7 +157,6 @@ def merge_several_folds_mean(data, nfolds):
     return a.tolist()
 
 #-------------------------- Fine-tune Pretrained models -----------------------------------------
-
 
 def create_model():
 
