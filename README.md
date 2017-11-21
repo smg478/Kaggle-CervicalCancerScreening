@@ -11,7 +11,7 @@ This implementation only contains the 2nd part of the solution. Therefore, only 
 
 ## Requirements
 
-Keras 1.0 w/ TF backend
+Keras 2.0 w/ TF backend
 
 sklearn
 
