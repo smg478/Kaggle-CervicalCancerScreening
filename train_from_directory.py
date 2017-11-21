@@ -4,12 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from keras.preprocessing.image import ImageDataGenerator
-from keras.optimizers import SGD
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D
-from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau, CSVLogger, ModelCheckpoint
 from keras import backend as K
+from keras.models import Model, Sequential
 
 from keras import applications
 from keras.applications.resnet50 import ResNet50
@@ -18,28 +15,16 @@ from keras.applications.vgg19 import VGG19
 from keras.applications.inception_v3 import InceptionV3
 from keras.applications.xception import Xception
 
-
-from keras.models import Model
-from keras.models import Sequential
 from keras import layers
-
-from keras.layers import Input, Activation, merge, Dense, Flatten, GlobalAveragePooling2D, Dropout, Conv2D, AveragePooling2D
+from keras.layers import Input, Activation, merge, Dense, Flatten, MaxPooling2D, GlobalAveragePooling2D, Dropout, Conv2D, AveragePooling2D
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, AveragePooling2D
 from keras.layers.normalization import BatchNormalization
 
-
 from keras.regularizers import l2
-from keras import backend as K
-from keras.callbacks import EarlyStopping, ModelCheckpoint
-
-#from keras.layers.core import Dense, Dropout, Flatten
 from keras.optimizers import SGD, Adagrad, Adam
-from keras.callbacks import EarlyStopping, ReduceLROnPlateau, CSVLogger
 from keras.utils import np_utils
 from keras.constraints import maxnorm
 from keras import __version__ as keras_version
-from keras.preprocessing.image import ImageDataGenerator
-from keras.constraints import maxnorm
 
 #---------------------------------------- Ground truth -----------------------------------------------------------------
 
@@ -66,19 +51,15 @@ else:
 
 # ======================================= Model Definitions ============================================================
 
-# create the base pre-trained model
-
 base_model = InceptionV3(weights='imagenet', include_top=False)
 #base_model = applications.VGG16(weights='imagenet', include_top=False,input_tensor=input_tensor)
 #base_model = applications.VGG19(weights='imagenet', include_top=False,input_tensor=input_tensor)
 #base_model = applications.ResNet50(weights='imagenet', include_top=False, input_tensor=input_tensor, pooling='avg')
 #base_model = Xception(weights='imagenet', include_top=False,input_tensor=input_tensor,pooling='avg')
 
-
-# add a global spatial average pooling layer
 x = base_model.output
 
-x = Flatten()(x)  # Res50, vgg16
+x = Flatten()(x)                            # Res50, vgg16
 #x = Dropout(0.75)(x)
 #x = GlobalAveragePooling2D()(x)             # xception
 x = layers.noise.GaussianNoise(.5)(x)
@@ -87,20 +68,13 @@ x = Dense(2048, kernel_constraint= maxnorm(2.), activation='relu')(x)
 #x = Dense(4096, activation='relu')(x)
 x = Dropout(0.5)(x)
 
-
 x = Dense(3, activation='softmax')(x)
 
-# this is the model we will train
 inputs = input_tensor
-
 model = Model(inputs, x)
 
 #model.load_weights(trained_weights_path)
 #model.load_weights(top_model_weights_path)
-
-
-# first: train only the top layers (which were randomly initialized)
-# i.e. freeze all convolutional InceptionV3 layers
 
 #for layer in base_model.layers:                     # vgg19 11(16:last) blk) layer freeze, Res50 91 layer (140) freeze, xception 85
 #    layer.trainable = False
@@ -108,10 +82,6 @@ for layer in model.layers[:18]:
     layer.trainable = False
 for layer in model.layers[18:]:
     layer.trainable = True
-
-# compile the model (should be done *after* setting layers to non-trainable)
-#model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])   #Fine-tune fc layer
-#model.compile(optimizer=SGD(lr=0.001, momentum=0.9), loss='categorical_crossentropy', metrics=['accuracy'])
 
 print("Model created")
 
@@ -127,18 +97,8 @@ for i, layer in enumerate(model.layers):
     print(i, layer.name)
 
 
-
-
-# ----------------------- pre-trained keras end -----------------------------------------------------------------------
-
-
-# ============================================ model definition end ====================================================
-
 # ============================================ Data Process ============================================================
 
-
-
-# this is the augmentation configuration we will use for training
 train_datagen = ImageDataGenerator(featurewise_center=False,
                                     featurewise_std_normalization=False,  # divide inputs by std of the dataset
                                     samplewise_center=False,
@@ -167,8 +127,6 @@ validation_generator = test_datagen.flow_from_directory(
                                                     target_size=(img_width, img_height),
                                                     batch_size=batch_size,
                                                     class_mode='categorical')
-
-# ====================================== Data process end ==============================================================
 
 # ====================================== Training ======================================================================
 
