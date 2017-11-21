@@ -1,0 +1,5852 @@
+[
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 192.24242424242425,
+                "width": 146.54545454545456,
+                "x": 248.969696969697,
+                "y": 553.0909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/3.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 234.5454545454545,
+                "width": 226.7272727272727,
+                "x": 267.3818181818182,
+                "y": 464.4
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/5.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 337.74545454545455,
+                "width": 580.1090909090908,
+                "x": 12.5090909090909,
+                "y": 173.56363636363633
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/11.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 350.2545454545454,
+                "width": 451.890909090909,
+                "x": 75.05454545454545,
+                "y": 367.45454545454544
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/16.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 569.1636363636362,
+                "width": 445.6363636363636,
+                "x": 170.4363636363636,
+                "y": 379.96363636363634
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/18.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 227.4909090909091,
+                "width": 315.27272727272725,
+                "x": 114.98181818181818,
+                "y": 352.3636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/20.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 497.23636363636354,
+                "width": 284.5818181818182,
+                "x": 250.18181818181816,
+                "y": 501.9272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/23.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 163.2,
+                "width": 195.34545454545457,
+                "x": 168.14545454545453,
+                "y": 469.8181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/25.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 486.29090909090905,
+                "width": 561.3454545454545,
+                "x": 67.23636363636363,
+                "y": 184.5090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/30.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 164.43636363636358,
+                "width": 168.14545454545453,
+                "x": 220.07272727272726,
+                "y": 384.5090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/33.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 250.98181818181814,
+                "width": 269.5272727272727,
+                "x": 199.05454545454546,
+                "y": 332.58181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/38.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 222.54545454545453,
+                "width": 173.0909090909091,
+                "x": 223.78181818181818,
+                "y": 222.54545454545453
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/49.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 400.58181818181816,
+                "width": 378.3272727272727,
+                "x": 96.43636363636364,
+                "y": 51.92727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/50.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 273.23636363636365,
+                "width": 326.4,
+                "x": 175.56363636363636,
+                "y": 337.5272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/58.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 212.65454545454543,
+                "width": 237.3818181818182,
+                "x": 189.16363636363636,
+                "y": 259.6363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/59.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 405.5272727272727,
+                "width": 377.0909090909091,
+                "x": 64.29090909090908,
+                "y": 112.5090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/61.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 236.14545454545453,
+                "width": 204.0,
+                "x": 175.56363636363636,
+                "y": 307.8545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/62.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 290.5454545454546,
+                "width": 363.4909090909091,
+                "x": 171.85454545454544,
+                "y": 302.9090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/63.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 378.40000000000003,
+                "width": 458.1454545454545,
+                "x": 253.30909090909088,
+                "y": 322.10909090909087
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/69.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 314.29090909090905,
+                "width": 331.49090909090904,
+                "x": 175.12727272727273,
+                "y": 369.0181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/70.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 609.8181818181818,
+                "width": 495.6727272727272,
+                "x": 96.94545454545454,
+                "y": 193.89090909090908
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/71.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 185.45454545454544,
+                "width": 196.58181818181822,
+                "x": 274.47272727272724,
+                "y": 199.05454545454546
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/73.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 320.54545454545456,
+                "width": 440.9454545454545,
+                "x": 197.0181818181818,
+                "y": 494.10909090909087
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/82.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 280.6545454545454,
+                "width": 362.25454545454545,
+                "x": 148.36363636363637,
+                "y": 293.0181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/83.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 234.90909090909093,
+                "width": 279.41818181818184,
+                "x": 174.3272727272727,
+                "y": 27.2
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/87.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 304.9090909090908,
+                "width": 351.81818181818176,
+                "x": 64.10909090909091,
+                "y": 370.58181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/98.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 237.38181818181818,
+                "width": 237.38181818181818,
+                "x": 129.8181818181818,
+                "y": 215.12727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/106.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 358.0727272727272,
+                "width": 556.6545454545454,
+                "x": 164.18181818181816,
+                "y": 139.16363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/108.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 548.8363636363636,
+                "width": 612.9454545454545,
+                "x": 134.47272727272727,
+                "y": 20.327272727272724
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/111.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 379.96363636363634,
+                "width": 456.58181818181816,
+                "x": 115.7090909090909,
+                "y": 281.45454545454544
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/113.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 275.7090909090909,
+                "width": 231.2,
+                "x": 169.38181818181818,
+                "y": 131.05454545454546
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/114.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 344.94545454545454,
+                "width": 311.5636363636363,
+                "x": 184.21818181818182,
+                "y": 108.8
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/118.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 406.54545454545445,
+                "width": 415.9272727272727,
+                "x": 9.381818181818181,
+                "y": 351.8181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/124.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 213.89090909090908,
+                "width": 202.76363636363638,
+                "x": 178.03636363636363,
+                "y": 317.74545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/125.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 284.3636363636363,
+                "width": 254.6909090909091,
+                "x": 213.89090909090908,
+                "y": 354.8363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/130.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 250.98181818181814,
+                "width": 252.2181818181818,
+                "x": 263.3454545454545,
+                "y": 268.2909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/132.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 331.3454545454546,
+                "width": 346.18181818181824,
+                "x": 201.52727272727273,
+                "y": 178.03636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/135.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 229.96363636363634,
+                "width": 262.10909090909087,
+                "x": 199.05454545454546,
+                "y": 300.43636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/141.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 244.79999999999995,
+                "width": 236.14545454545456,
+                "x": 149.6,
+                "y": 327.6363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/143.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 555.090909090909,
+                "width": 602.0,
+                "x": 90.69090909090909,
+                "y": 353.3818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/145.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 195.4545454545455,
+                "width": 220.47272727272724,
+                "x": 75.05454545454545,
+                "y": 428.4363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/146.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 213.89090909090908,
+                "width": 206.47272727272727,
+                "x": 250.98181818181817,
+                "y": 269.5272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/150.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 208.94545454545454,
+                "width": 228.72727272727272,
+                "x": 201.52727272727273,
+                "y": 243.56363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/154.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 236.14545454545453,
+                "width": 275.7090909090909,
+                "x": 148.36363636363637,
+                "y": 192.87272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/155.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 213.89090909090908,
+                "width": 206.47272727272727,
+                "x": 132.29090909090908,
+                "y": 136.0
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/158.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 243.5636363636364,
+                "width": 255.92727272727274,
+                "x": 207.7090909090909,
+                "y": 194.1090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/163.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 244.8,
+                "width": 168.14545454545453,
+                "x": 242.3272727272727,
+                "y": 264.58181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/166.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 207.7090909090909,
+                "width": 220.07272727272726,
+                "x": 264.58181818181816,
+                "y": 276.94545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/169.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 244.79999999999995,
+                "width": 223.78181818181818,
+                "x": 206.47272727272727,
+                "y": 273.23636363636365
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/170.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 226.25454545454548,
+                "width": 233.6727272727273,
+                "x": 253.45454545454544,
+                "y": 205.23636363636362
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/172.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 206.47272727272724,
+                "width": 189.16363636363633,
+                "x": 289.3090909090909,
+                "y": 295.4909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/174.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 234.54545454545445,
+                "width": 236.10909090909092,
+                "x": 329.9272727272727,
+                "y": 354.94545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/179.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 531.6363636363636,
+                "width": 478.47272727272724,
+                "x": 15.636363636363626,
+                "y": 212.65454545454543
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/187.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 281.45454545454544,
+                "width": 261.1272727272727,
+                "x": 317.4181818181818,
+                "y": 358.07272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/188.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 378.3999999999999,
+                "width": 328.3636363636363,
+                "x": 106.32727272727271,
+                "y": 186.07272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/193.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 340.8727272727272,
+                "width": 333.05454545454546,
+                "x": 126.65454545454544,
+                "y": 73.49090909090908
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/194.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 151.14545454545456,
+                "width": 167.83636363636364,
+                "x": 213.27272727272728,
+                "y": 254.0727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/196.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 268.2909090909091,
+                "width": 257.16363636363633,
+                "x": 149.6,
+                "y": 312.8
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/197.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 213.89090909090908,
+                "width": 227.4909090909091,
+                "x": 199.05454545454546,
+                "y": 221.3090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/199.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 247.27272727272725,
+                "width": 248.5090909090909,
+                "x": 196.58181818181816,
+                "y": 95.2
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/200.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 372.14545454545447,
+                "width": 344.0,
+                "x": 298.6545454545454,
+                "y": 186.07272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/202.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 234.90909090909088,
+                "width": 250.9818181818182,
+                "x": 254.6909090909091,
+                "y": 232.43636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/207.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 238.61818181818182,
+                "width": 220.07272727272726,
+                "x": 134.76363636363635,
+                "y": 227.4909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/211.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 197.8181818181818,
+                "width": 195.34545454545454,
+                "x": 116.21818181818182,
+                "y": 145.89090909090908
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/212.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 210.1818181818182,
+                "width": 201.52727272727273,
+                "x": 250.98181818181817,
+                "y": 390.6909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/214.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 286.83636363636367,
+                "width": 249.74545454545452,
+                "x": 195.34545454545454,
+                "y": 340.0
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/217.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 241.090909090909,
+                "width": 233.6727272727273,
+                "x": 236.14545454545453,
+                "y": 318.9818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/220.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 259.6363636363636,
+                "width": 299.19999999999993,
+                "x": 65.52727272727276,
+                "y": 139.70909090909092
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/221.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 279.4181818181818,
+                "width": 222.54545454545456,
+                "x": 270.76363636363635,
+                "y": 201.52727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/222.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 653.5999999999999,
+                "width": 623.8909090909091,
+                "x": 65.67272727272727,
+                "y": 300.2181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/226.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 451.890909090909,
+                "width": 470.6545454545454,
+                "x": 73.49090909090908,
+                "y": 201.7090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/228.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 314.0363636363636,
+                "width": 337.5272727272727,
+                "x": 114.98181818181818,
+                "y": 262.1090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/232.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 747.4181818181818,
+                "width": 680.1818181818181,
+                "x": 71.92727272727268,
+                "y": 95.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/242.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 288.0727272727273,
+                "width": 409.23636363636365,
+                "x": 122.39999999999999,
+                "y": 92.72727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/247.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 475.34545454545446,
+                "width": 486.290909090909,
+                "x": 186.07272727272726,
+                "y": 156.36363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/249.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 283.0181818181818,
+                "width": 286.1454545454545,
+                "x": 146.98181818181817,
+                "y": 486.29090909090905
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/253.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 284.3636363636364,
+                "width": 264.58181818181816,
+                "x": 96.43636363636364,
+                "y": 248.5090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/256.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 208.94545454545454,
+                "width": 220.0727272727273,
+                "x": 217.6,
+                "y": 168.14545454545453
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/258.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 213.8909090909091,
+                "width": 189.16363636363639,
+                "x": 309.09090909090907,
+                "y": 212.65454545454546
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/259.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 191.63636363636363,
+                "width": 187.9272727272727,
+                "x": 216.36363636363635,
+                "y": 181.74545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/260.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 386.21818181818173,
+                "width": 351.8181818181818,
+                "x": 275.2,
+                "y": 190.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/261.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 237.38181818181818,
+                "width": 229.96363636363637,
+                "x": 201.52727272727273,
+                "y": 74.18181818181819
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/263.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 522.2545454545455,
+                "width": 512.8727272727272,
+                "x": 137.6,
+                "y": 167.30909090909088
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/269.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 609.8181818181818,
+                "width": 602.0,
+                "x": 53.16363636363636,
+                "y": 270.5090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/272.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 367.2,
+                "width": 378.3272727272727,
+                "x": 112.5090909090909,
+                "y": 80.36363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/273.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 353.2909090909091,
+                "width": 252.21818181818185,
+                "x": 127.96363636363638,
+                "y": 92.72727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/275.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 248.50909090909093,
+                "width": 280.6545454545454,
+                "x": 191.63636363636363,
+                "y": 217.6
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/277.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 229.96363636363634,
+                "width": 223.78181818181815,
+                "x": 192.87272727272727,
+                "y": 169.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/280.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 519.1272727272727,
+                "width": 545.7090909090908,
+                "x": 125.09090909090908,
+                "y": 283.0181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/286.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 393.16363636363633,
+                "width": 393.16363636363633,
+                "x": 96.43636363636364,
+                "y": 40.8
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/287.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 520.690909090909,
+                "width": 650.4727272727273,
+                "x": 84.43636363636362,
+                "y": 1.5636363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/289.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 395.6363636363636,
+                "width": 477.23636363636365,
+                "x": 81.6,
+                "y": 110.03636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/292.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 238.6181818181818,
+                "width": 242.3272727272727,
+                "x": 186.6909090909091,
+                "y": 206.47272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/295.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 469.090909090909,
+                "width": 490.9818181818181,
+                "x": 146.98181818181817,
+                "y": 422.18181818181813
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/299.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 222.54545454545456,
+                "width": 239.85454545454544,
+                "x": 149.6,
+                "y": 257.16363636363633
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/300.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 455.01818181818174,
+                "width": 367.4545454545454,
+                "x": 139.16363636363639,
+                "y": 423.7454545454545
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/304.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 252.21818181818173,
+                "width": 310.3272727272727,
+                "x": 158.25454545454545,
+                "y": 330.1090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/307.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 328.3636363636363,
+                "width": 364.32727272727266,
+                "x": 139.16363636363636,
+                "y": 175.12727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/309.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 222.54545454545453,
+                "width": 248.50909090909093,
+                "x": 132.29090909090908,
+                "y": 246.03636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/318.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 480.0363636363636,
+                "width": 520.690909090909,
+                "x": 200.14545454545453,
+                "y": 190.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/320.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 433.1272727272727,
+                "width": 580.1090909090909,
+                "x": 157.92727272727268,
+                "y": 419.0545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/321.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 302.9090909090909,
+                "width": 393.1636363636364,
+                "x": 129.8181818181818,
+                "y": 212.65454545454546
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/322.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 184.2181818181818,
+                "width": 202.76363636363635,
+                "x": 215.12727272727273,
+                "y": 96.43636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/323.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 212.65454545454546,
+                "width": 270.76363636363635,
+                "x": 103.85454545454544,
+                "y": 218.83636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/324.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 303.3454545454546,
+                "width": 320.54545454545456,
+                "x": 293.96363636363634,
+                "y": 336.18181818181813
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/325.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 275.7575757575758,
+                "width": 335.6363636363636,
+                "x": 189.09090909090912,
+                "y": 375.03030303030306
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/327.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 314.0363636363636,
+                "width": 427.78181818181815,
+                "x": 66.76363636363637,
+                "y": 238.61818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/328.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 233.67272727272723,
+                "width": 196.5818181818182,
+                "x": 132.29090909090908,
+                "y": 267.05454545454546
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/335.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 242.36363636363632,
+                "width": 234.5454545454545,
+                "x": 192.3272727272727,
+                "y": 318.98181818181814
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/336.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 273.23636363636365,
+                "width": 264.58181818181816,
+                "x": 119.92727272727272,
+                "y": 65.52727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/344.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 359.6363636363636,
+                "width": 434.69090909090903,
+                "x": 146.9818181818182,
+                "y": 289.27272727272725
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/347.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 160.7272727272727,
+                "width": 154.54545454545453,
+                "x": 137.23636363636362,
+                "y": 365.96363636363634
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/350.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 204.05454545454546,
+                "width": 220.4727272727273,
+                "x": 516.0,
+                "y": 317.8090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/352.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 143.41818181818184,
+                "width": 128.58181818181816,
+                "x": 260.8727272727273,
+                "y": 326.4
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/355.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 165.6727272727273,
+                "width": 137.23636363636362,
+                "x": 222.54545454545453,
+                "y": 368.43636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/357.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 223.59999999999997,
+                "width": 182.94545454545454,
+                "x": 323.67272727272723,
+                "y": 392.47272727272724
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/361.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 237.38181818181815,
+                "width": 171.85454545454544,
+                "x": 218.83636363636364,
+                "y": 150.83636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/362.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 217.34545454545446,
+                "width": 157.92727272727268,
+                "x": 178.25454545454545,
+                "y": 569.1636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/363.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 192.3272727272727,
+                "width": 176.6909090909091,
+                "x": 28.14545454545454,
+                "y": 211.09090909090907
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/370.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 143.41818181818184,
+                "width": 175.56363636363636,
+                "x": 213.89090909090908,
+                "y": 322.6909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/373.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 307.8545454545455,
+                "width": 436.4363636363637,
+                "x": 122.39999999999999,
+                "y": 201.52727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/380.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 233.37272727272727,
+                "width": 191.15454545454548,
+                "x": 139.55454545454546,
+                "y": 255.65454545454548
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/390.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 329.9272727272727,
+                "width": 448.76363636363635,
+                "x": 171.99999999999997,
+                "y": 225.16363636363633
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/391.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 275.70909090909095,
+                "width": 377.0909090909091,
+                "x": 87.78181818181818,
+                "y": 149.6
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/392.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 163.20000000000005,
+                "width": 157.0181818181818,
+                "x": 268.2909090909091,
+                "y": 451.27272727272725
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/399.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 161.96363636363634,
+                "width": 166.90909090909093,
+                "x": 185.45454545454544,
+                "y": 248.5090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/402.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 234.90909090909088,
+                "width": 232.43636363636364,
+                "x": 107.56363636363636,
+                "y": 237.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/405.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 217.6,
+                "width": 207.7090909090909,
+                "x": 68.0,
+                "y": 244.79999999999998
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/409.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 178.9636363636364,
+                "width": 162.2727272727273,
+                "x": 268.90909090909093,
+                "y": 170.61818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/415.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 186.6909090909091,
+                "width": 190.39999999999998,
+                "x": 220.07272727272726,
+                "y": 309.09090909090907
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/417.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 206.47272727272724,
+                "width": 211.4181818181818,
+                "x": 178.03636363636363,
+                "y": 305.3818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/422.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 206.4727272727273,
+                "width": 192.87272727272727,
+                "x": 147.12727272727273,
+                "y": 247.27272727272725
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/424.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 149.60000000000002,
+                "width": 166.90909090909088,
+                "x": 97.67272727272727,
+                "y": 331.3454545454545
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/426.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 462.83636363636367,
+                "width": 434.69090909090903,
+                "x": 156.36363636363637,
+                "y": 170.4363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/427.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 325.23636363636365,
+                "width": 383.090909090909,
+                "x": 181.38181818181818,
+                "y": 161.05454545454543
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/430.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 242.3272727272727,
+                "width": 253.45454545454544,
+                "x": 119.92727272727272,
+                "y": 168.14545454545453
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/431.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 271.99999999999994,
+                "width": 383.27272727272725,
+                "x": 64.29090909090908,
+                "y": 268.2909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/433.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 248.50909090909087,
+                "width": 197.81818181818184,
+                "x": 239.85454545454544,
+                "y": 173.0909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/435.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 175.56363636363636,
+                "width": 168.14545454545453,
+                "x": 202.76363636363635,
+                "y": 299.2
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/436.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 181.74545454545455,
+                "width": 159.49090909090907,
+                "x": 201.52727272727273,
+                "y": 317.74545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/439.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 472.2181818181818,
+                "width": 481.5999999999999,
+                "x": 48.4727272727273,
+                "y": 100.07272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/450.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 384.50909090909096,
+                "width": 415.4181818181818,
+                "x": 56.872727272727275,
+                "y": 152.07272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/459.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 281.8909090909091,
+                "width": 233.67272727272726,
+                "x": 160.72727272727272,
+                "y": 393.16363636363633
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/465.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 293.01818181818186,
+                "width": 260.8727272727273,
+                "x": 236.14545454545453,
+                "y": 243.56363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/466.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 305.3818181818182,
+                "width": 286.8363636363636,
+                "x": 186.6909090909091,
+                "y": 131.05454545454546
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/467.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 300.2181818181818,
+                "width": 339.3090909090909,
+                "x": 411.2363636363636,
+                "y": 465.96363636363634
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/468.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 408.10909090909087,
+                "width": 520.690909090909,
+                "x": 67.23636363636363,
+                "y": 475.3454545454545
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/475.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 201.5272727272727,
+                "width": 182.9818181818182,
+                "x": 158.25454545454545,
+                "y": 153.3090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/477.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 179.2727272727273,
+                "width": 197.8181818181818,
+                "x": 164.43636363636364,
+                "y": 280.6545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/479.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 278.18181818181813,
+                "width": 341.2363636363636,
+                "x": 102.61818181818181,
+                "y": 304.1454545454545
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/480.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 194.72727272727278,
+                "width": 175.25454545454545,
+                "x": 317.1272727272728,
+                "y": 185.45454545454547
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/489.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 331.4909090909091,
+                "width": 328.3636363636363,
+                "x": 262.6909090909091,
+                "y": 345.5636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/491.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 309.59999999999997,
+                "width": 273.6363636363636,
+                "x": 212.65454545454543,
+                "y": 392.47272727272724
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/492.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 185.45454545454538,
+                "width": 170.6181818181818,
+                "x": 250.98181818181817,
+                "y": 386.9818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/494.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 226.25454545454542,
+                "width": 210.1818181818182,
+                "x": 142.1818181818182,
+                "y": 229.96363636363637
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/495.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 184.21818181818182,
+                "width": 178.03636363636366,
+                "x": 253.45454545454544,
+                "y": 228.72727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/498.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 364.0,
+                "width": 368.72727272727275,
+                "x": 157.5757575757576,
+                "y": 329.33333333333337
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/500.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 241.09090909090907,
+                "width": 250.98181818181817,
+                "x": 171.85454545454544,
+                "y": 147.12727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/510.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 259.6363636363636,
+                "width": 290.54545454545456,
+                "x": 68.0,
+                "y": 206.47272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/511.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 417.49090909090904,
+                "width": 389.3454545454546,
+                "x": 161.05454545454543,
+                "y": 389.3454545454545
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/512.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 206.47272727272724,
+                "width": 154.54545454545456,
+                "x": 276.94545454545454,
+                "y": 284.3636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/514.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 176.18181818181822,
+                "width": 181.74545454545455,
+                "x": 251.2909090909091,
+                "y": 185.45454545454547
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/519.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 258.4,
+                "width": 304.1454545454545,
+                "x": 145.89090909090908,
+                "y": 241.0909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/520.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 249.7454545454545,
+                "width": 236.14545454545456,
+                "x": 234.9090909090909,
+                "y": 310.3272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/527.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 444.0727272727272,
+                "width": 587.9272727272727,
+                "x": 21.890909090909076,
+                "y": 117.27272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/530.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 356.50909090909084,
+                "width": 334.61818181818177,
+                "x": 373.7090909090909,
+                "y": 500.3636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/543.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 382.0363636363636,
+                "width": 352.3636363636363,
+                "x": 185.45454545454544,
+                "y": 98.9090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/554.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 309.0909090909091,
+                "width": 326.4,
+                "x": 200.29090909090905,
+                "y": 269.5272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/555.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 202.76363636363635,
+                "width": 215.12727272727273,
+                "x": 248.5090909090909,
+                "y": 204.0
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/565.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 443.85454545454536,
+                "width": 358.5454545454545,
+                "x": 24.727272727272748,
+                "y": 70.47272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/567.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 220.07272727272726,
+                "width": 220.07272727272724,
+                "x": 173.0909090909091,
+                "y": 238.61818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/571.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 317.7454545454545,
+                "width": 284.3636363636364,
+                "x": 140.94545454545454,
+                "y": 197.8181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/573.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 448.7636363636363,
+                "width": 461.27272727272725,
+                "x": 279.8909090909091,
+                "y": 404.98181818181814
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/575.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 326.79999999999995,
+                "width": 295.52727272727276,
+                "x": 309.59999999999997,
+                "y": 242.36363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/585.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 296.72727272727275,
+                "width": 258.40000000000003,
+                "x": 128.58181818181816,
+                "y": 237.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/587.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 201.52727272727276,
+                "width": 194.10909090909092,
+                "x": 258.4,
+                "y": 196.58181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/590.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 243.92727272727274,
+                "width": 290.8363636363636,
+                "x": 197.0181818181818,
+                "y": 459.7090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/594.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 383.09090909090907,
+                "width": 347.12727272727267,
+                "x": 256.43636363636364,
+                "y": 207.96363636363634
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/598.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 202.76363636363635,
+                "width": 248.5090909090909,
+                "x": 147.12727272727273,
+                "y": 272.0
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/599.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 212.65454545454548,
+                "width": 196.58181818181816,
+                "x": 207.7090909090909,
+                "y": 225.0181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/600.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 278.18181818181813,
+                "width": 278.18181818181813,
+                "x": 237.38181818181818,
+                "y": 98.9090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/604.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 237.939393939394,
+                "width": 267.8787878787879,
+                "x": 193.81818181818184,
+                "y": 214.3030303030303
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/606.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 242.3272727272727,
+                "width": 187.92727272727274,
+                "x": 236.14545454545453,
+                "y": 126.10909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/617.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 238.61818181818182,
+                "width": 274.4727272727273,
+                "x": 185.45454545454544,
+                "y": 163.2
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/625.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 461.27272727272725,
+                "width": 509.7454545454545,
+                "x": 96.94545454545454,
+                "y": 378.4
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/626.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 280.6545454545454,
+                "width": 265.8181818181818,
+                "x": 279.41818181818184,
+                "y": 147.12727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/627.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 486.290909090909,
+                "width": 525.3818181818182,
+                "x": 206.39999999999998,
+                "y": 65.67272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/628.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 216.36363636363635,
+                "width": 203.99999999999997,
+                "x": 150.83636363636364,
+                "y": 182.98181818181817
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/629.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 494.1090909090908,
+                "width": 523.8181818181819,
+                "x": 81.3090909090909,
+                "y": 362.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/630.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 417.49090909090904,
+                "width": 444.0727272727272,
+                "x": 156.36363636363635,
+                "y": 262.6909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/631.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 424.07272727272726,
+                "width": 347.4181818181818,
+                "x": 137.23636363636362,
+                "y": 82.83636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/635.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 300.4363636363637,
+                "width": 267.05454545454546,
+                "x": 102.61818181818181,
+                "y": 370.9090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/636.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 314.03636363636366,
+                "width": 299.2,
+                "x": 204.0,
+                "y": 377.09090909090907
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/637.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 456.5818181818182,
+                "width": 439.38181818181806,
+                "x": 131.34545454545454,
+                "y": 164.18181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/638.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 267.05454545454546,
+                "width": 322.69090909090903,
+                "x": 160.72727272727272,
+                "y": 237.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/646.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 309.5999999999999,
+                "width": 293.96363636363634,
+                "x": 100.07272727272726,
+                "y": 242.36363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/650.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 394.03636363636355,
+                "width": 387.78181818181815,
+                "x": 115.7090909090909,
+                "y": 472.2181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/654.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 289.30909090909086,
+                "width": 258.4,
+                "x": 191.63636363636363,
+                "y": 237.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/661.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 386.2181818181818,
+                "width": 426.8727272727272,
+                "x": 103.19999999999999,
+                "y": 334.61818181818177
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/664.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 221.30909090909088,
+                "width": 206.47272727272727,
+                "x": 110.03636363636363,
+                "y": 171.85454545454544
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/669.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 251.74545454545452,
+                "width": 275.2,
+                "x": 414.3636363636363,
+                "y": 237.67272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/670.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 275.7090909090909,
+                "width": 248.50909090909093,
+                "x": 216.36363636363635,
+                "y": 285.59999999999997
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/672.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 253.45454545454544,
+                "width": 247.27272727272725,
+                "x": 148.36363636363637,
+                "y": 140.94545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/675.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 317.74545454545455,
+                "width": 348.6545454545454,
+                "x": 79.12727272727273,
+                "y": 223.78181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/679.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 291.78181818181815,
+                "width": 278.18181818181813,
+                "x": 252.21818181818182,
+                "y": 166.9090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/682.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 232.43636363636364,
+                "width": 283.1272727272728,
+                "x": 263.3454545454545,
+                "y": 347.41818181818184
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/689.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 153.049474645476,
+                "width": 191.58711214613544,
+                "x": 303.89679857662867,
+                "y": 6.606452142970188
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/690.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 206.47272727272724,
+                "width": 223.78181818181818,
+                "x": 166.9090909090909,
+                "y": 237.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/692.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 323.67272727272723,
+                "width": 256.4363636363636,
+                "x": 189.2,
+                "y": 536.3272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/694.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 189.16363636363639,
+                "width": 197.50909090909096,
+                "x": 404.2909090909091,
+                "y": 188.23636363636365
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/695.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 211.41818181818184,
+                "width": 201.5272727272727,
+                "x": 140.94545454545454,
+                "y": 347.41818181818184
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/697.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 290.5454545454545,
+                "width": 255.92727272727274,
+                "x": 208.94545454545454,
+                "y": 149.6
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/706.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 433.12727272727267,
+                "width": 442.5090909090909,
+                "x": 168.87272727272725,
+                "y": 109.45454545454544
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/711.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 283.0181818181818,
+                "width": 289.27272727272725,
+                "x": 204.83636363636361,
+                "y": 218.90909090909088
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/715.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 187.92727272727274,
+                "width": 213.89090909090908,
+                "x": 302.9090909090909,
+                "y": 343.7090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/721.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 85.81818181818181,
+                "width": 105.6969696969697,
+                "x": 5.090909090909091,
+                "y": 43.87878787878788
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/728.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 378.32727272727277,
+                "width": 391.9272727272727,
+                "x": 190.4,
+                "y": 165.67272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/731.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 387.78181818181815,
+                "width": 411.23636363636354,
+                "x": 279.8909090909091,
+                "y": 87.56363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/733.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 381.5272727272727,
+                "width": 384.6545454545454,
+                "x": 212.65454545454543,
+                "y": 225.16363636363633
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/734.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 348.6545454545454,
+                "width": 389.4545454545454,
+                "x": 206.47272727272727,
+                "y": 143.4181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/735.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 338.76363636363635,
+                "width": 310.3272727272727,
+                "x": 147.12727272727273,
+                "y": 202.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/736.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 369.67272727272723,
+                "width": 415.4181818181818,
+                "x": 48.21818181818182,
+                "y": 114.98181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/737.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 279.4181818181818,
+                "width": 276.9454545454545,
+                "x": 116.21818181818182,
+                "y": 108.8
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/740.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 296.72727272727275,
+                "width": 297.9636363636364,
+                "x": 176.79999999999998,
+                "y": 280.6545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/742.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 392.4727272727273,
+                "width": 461.27272727272725,
+                "x": 206.39999999999998,
+                "y": 431.5636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/746.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 533.2,
+                "width": 667.6727272727272,
+                "x": 79.74545454545454,
+                "y": 340.8727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/747.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 322.1090909090909,
+                "width": 261.1272727272727,
+                "x": 242.36363636363635,
+                "y": 231.4181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/750.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 412.79999999999995,
+                "width": 367.4545454545454,
+                "x": 197.0181818181818,
+                "y": 273.6363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/752.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 411.2363636363636,
+                "width": 367.4545454545454,
+                "x": 171.99999999999997,
+                "y": 386.2181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/755.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 241.0909090909091,
+                "width": 206.4727272727273,
+                "x": 84.07272727272726,
+                "y": 233.67272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/757.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 265.2,
+                "width": 331.03636363636366,
+                "x": 260.56363636363636,
+                "y": 127.03636363636365
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/758.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 517.5636363636363,
+                "width": 639.5272727272726,
+                "x": 57.85454545454545,
+                "y": 297.09090909090907
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/766.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 281.8909090909091,
+                "width": 436.4363636363636,
+                "x": 75.41818181818182,
+                "y": 166.9090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/767.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 254.69090909090903,
+                "width": 265.8181818181818,
+                "x": 147.12727272727273,
+                "y": 362.25454545454545
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/770.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 223.78181818181815,
+                "width": 213.8909090909091,
+                "x": 81.6,
+                "y": 118.69090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/773.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 243.92727272727274,
+                "width": 248.61818181818182,
+                "x": 400.29090909090905,
+                "y": 290.8363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/774.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 279.4181818181818,
+                "width": 259.6363636363636,
+                "x": 171.85454545454544,
+                "y": 241.0909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/776.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 146.50909090909093,
+                "width": 141.87272727272727,
+                "x": 317.1272727272728,
+                "y": 198.43636363636367
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/778.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 250.98181818181817,
+                "width": 243.56363636363636,
+                "x": 163.2,
+                "y": 201.52727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/780.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 231.19999999999993,
+                "width": 281.8909090909091,
+                "x": 165.67272727272726,
+                "y": 352.3636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/782.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 211.4181818181818,
+                "width": 246.03636363636366,
+                "x": 112.5090909090909,
+                "y": 165.67272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/784.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 301.67272727272723,
+                "width": 318.9818181818182,
+                "x": 127.34545454545454,
+                "y": 178.03636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/788.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 210.18181818181824,
+                "width": 241.09090909090907,
+                "x": 124.87272727272727,
+                "y": 314.0363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/796.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 291.78181818181815,
+                "width": 291.7818181818182,
+                "x": 134.76363636363635,
+                "y": 143.4181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/799.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 494.10909090909087,
+                "width": 406.5454545454545,
+                "x": 82.87272727272726,
+                "y": 367.45454545454544
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/800.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 260.8727272727273,
+                "width": 276.9454545454546,
+                "x": 171.85454545454544,
+                "y": 259.6363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/801.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 252.21818181818185,
+                "width": 210.18181818181822,
+                "x": 255.9272727272727,
+                "y": 100.14545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/803.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 312.79999999999995,
+                "width": 344.94545454545454,
+                "x": 186.6909090909091,
+                "y": 93.96363636363637
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/806.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 333.81818181818187,
+                "width": 340.0,
+                "x": 161.96363636363637,
+                "y": 258.4
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/808.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 270.76363636363635,
+                "width": 267.05454545454546,
+                "x": 82.83636363636363,
+                "y": 155.78181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/811.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 446.32727272727277,
+                "width": 419.1272727272727,
+                "x": 85.30909090909091,
+                "y": 202.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/812.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 231.2,
+                "width": 274.4727272727273,
+                "x": 163.2,
+                "y": 207.7090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/818.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 215.12727272727273,
+                "width": 194.1090909090909,
+                "x": 116.21818181818182,
+                "y": 243.56363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/820.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 327.6363636363636,
+                "width": 300.43636363636364,
+                "x": 69.23636363636363,
+                "y": 140.94545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/822.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 430.39090909090913,
+                "width": 452.67272727272734,
+                "x": 564.0818181818182,
+                "y": 16.41818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/823.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 501.92727272727274,
+                "width": 406.5454545454545,
+                "x": 104.76363636363635,
+                "y": 109.45454545454544
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/825.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 330.1090909090909,
+                "width": 233.67272727272723,
+                "x": 238.61818181818182,
+                "y": 202.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/828.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 249.74545454545455,
+                "width": 255.92727272727268,
+                "x": 114.98181818181818,
+                "y": 257.16363636363633
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/835.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 237.38181818181818,
+                "width": 234.90909090909093,
+                "x": 157.0181818181818,
+                "y": 113.74545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/837.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 487.8545454545455,
+                "width": 472.2181818181818,
+                "x": 34.4,
+                "y": 345.5636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/839.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 283.1272727272727,
+                "width": 223.7818181818182,
+                "x": 163.2,
+                "y": 149.6
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/840.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 306.47272727272724,
+                "width": 386.21818181818173,
+                "x": 175.12727272727273,
+                "y": 256.43636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/845.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 263.3454545454546,
+                "width": 274.47272727272724,
+                "x": 113.74545454545455,
+                "y": 189.16363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/848.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 478.4727272727273,
+                "width": 514.3272727272728,
+                "x": 63.054545454545455,
+                "y": 181.74545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/853.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 325.16363636363633,
+                "width": 422.83636363636367,
+                "x": 169.38181818181818,
+                "y": 105.0909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/864.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 354.83636363636356,
+                "width": 291.78181818181815,
+                "x": 182.9818181818182,
+                "y": 306.6181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/866.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 223.78181818181815,
+                "width": 249.74545454545452,
+                "x": 161.96363636363637,
+                "y": 148.36363636363637
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/869.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 330.1090909090909,
+                "width": 431.4909090909091,
+                "x": 89.01818181818182,
+                "y": 138.47272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/870.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 264.58181818181816,
+                "width": 270.76363636363635,
+                "x": 138.47272727272727,
+                "y": 152.07272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/872.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 472.29090909090905,
+                "width": 394.4,
+                "x": 108.8,
+                "y": 155.78181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/875.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 369.0181818181818,
+                "width": 473.7818181818181,
+                "x": 96.94545454545454,
+                "y": 304.9090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/876.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 343.70909090909083,
+                "width": 322.69090909090903,
+                "x": 160.72727272727272,
+                "y": 206.47272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/877.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 435.19999999999993,
+                "width": 482.18181818181813,
+                "x": 81.6,
+                "y": 148.36363636363637
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/878.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 270.76363636363635,
+                "width": 211.41818181818184,
+                "x": 157.0181818181818,
+                "y": 176.79999999999998
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/881.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 433.1272727272727,
+                "width": 533.1999999999999,
+                "x": 151.67272727272726,
+                "y": 409.67272727272723
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/885.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 314.0363636363636,
+                "width": 253.45454545454547,
+                "x": 194.1090909090909,
+                "y": 315.27272727272725
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/892.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 445.09090909090907,
+                "width": 389.45454545454544,
+                "x": 25.96363636363636,
+                "y": 221.3090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/893.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 341.23636363636365,
+                "width": 259.6363636363636,
+                "x": 123.63636363636363,
+                "y": 211.4181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/897.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 430.2545454545454,
+                "width": 383.27272727272725,
+                "x": 111.27272727272727,
+                "y": 186.6909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/898.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 364.72727272727263,
+                "width": 297.9636363636364,
+                "x": 143.4181818181818,
+                "y": 150.83636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/899.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 603.5636363636363,
+                "width": 609.8181818181818,
+                "x": 48.47272727272727,
+                "y": 362.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/900.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 269.5272727272727,
+                "width": 307.8545454545455,
+                "x": 129.8181818181818,
+                "y": 184.21818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/902.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 300.43636363636364,
+                "width": 286.8363636363636,
+                "x": 152.07272727272726,
+                "y": 312.8
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/907.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 270.76363636363635,
+                "width": 284.3636363636364,
+                "x": 74.18181818181819,
+                "y": 233.67272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/909.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 328.8727272727273,
+                "width": 290.54545454545456,
+                "x": 25.96363636363636,
+                "y": 223.78181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/910.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 276.94545454545454,
+                "width": 232.4363636363636,
+                "x": 178.03636363636363,
+                "y": 231.2
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/914.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 678.6181818181818,
+                "width": 572.290909090909,
+                "x": 31.27272727272727,
+                "y": 25.018181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/916.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 258.4,
+                "width": 314.0363636363636,
+                "x": 103.85454545454544,
+                "y": 155.78181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/923.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 329.1818181818182,
+                "width": 306.9272727272728,
+                "x": 248.50909090909093,
+                "y": 70.47272727272728
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/924.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 406.7636363636364,
+                "width": 254.6909090909091,
+                "x": 153.3090909090909,
+                "y": 197.8181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/927.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 434.90909090909093,
+                "width": 289.9393939393939,
+                "x": 237.93939393939397,
+                "y": 387.6363636363637
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/931.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 352.3636363636363,
+                "width": 389.4545454545455,
+                "x": 92.72727272727269,
+                "y": 286.8363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/941.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 340.00000000000006,
+                "width": 199.05454545454546,
+                "x": 237.38181818181818,
+                "y": 185.45454545454544
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/943.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 270.76363636363635,
+                "width": 243.56363636363636,
+                "x": 118.69090909090909,
+                "y": 48.21818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/944.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 349.8909090909091,
+                "width": 328.8727272727272,
+                "x": 220.07272727272726,
+                "y": 136.0
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/945.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 913.1636363636362,
+                "width": 736.4727272727272,
+                "x": 25.0181818181818,
+                "y": 67.23636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/947.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 241.0909090909091,
+                "width": 227.49090909090904,
+                "x": 310.3272727272727,
+                "y": 121.16363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/949.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 322.69090909090914,
+                "width": 379.56363636363636,
+                "x": 142.1818181818182,
+                "y": 222.54545454545453
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/950.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 352.3636363636364,
+                "width": 294.25454545454545,
+                "x": 210.1818181818182,
+                "y": 280.6545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/951.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 317.7454545454546,
+                "width": 395.63636363636357,
+                "x": 142.1818181818182,
+                "y": 342.47272727272724
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/952.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 344.9454545454546,
+                "width": 364.72727272727275,
+                "x": 128.58181818181816,
+                "y": 326.4
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/953.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 311.56363636363636,
+                "width": 247.2727272727273,
+                "x": 299.2,
+                "y": 368.43636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/954.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 233.67272727272726,
+                "width": 301.6727272727273,
+                "x": 136.0,
+                "y": 53.163636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/962.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 404.9818181818181,
+                "width": 469.09090909090907,
+                "x": 62.54545454545454,
+                "y": 353.3818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/968.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 400.29090909090905,
+                "width": 487.8545454545454,
+                "x": 100.07272727272726,
+                "y": 226.72727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/975.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 473.5272727272727,
+                "width": 305.3818181818182,
+                "x": 12.363636363636363,
+                "y": 255.9272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/980.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 430.2545454545454,
+                "width": 445.0909090909091,
+                "x": 42.03636363636363,
+                "y": 242.3272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/983.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 417.890909090909,
+                "width": 361.0181818181818,
+                "x": 55.63636363636363,
+                "y": 153.3090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/986.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 504.4363636363637,
+                "width": 479.70909090909083,
+                "x": 59.34545454545457,
+                "y": 64.29090909090908
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/993.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 343.70909090909095,
+                "width": 375.8545454545455,
+                "x": 110.0363636363636,
+                "y": 92.72727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/995.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 377.0909090909091,
+                "width": 328.8727272727273,
+                "x": 122.39999999999999,
+                "y": 237.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/996.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 421.6,
+                "width": 285.6,
+                "x": 200.29090909090905,
+                "y": 114.98181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1000.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 316.50909090909096,
+                "width": 318.98181818181814,
+                "x": 85.30909090909091,
+                "y": 242.3272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1003.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 374.6181818181818,
+                "width": 300.43636363636364,
+                "x": 253.45454545454544,
+                "y": 179.27272727272728
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1004.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 445.0909090909091,
+                "width": 472.29090909090905,
+                "x": 58.109090909090924,
+                "y": 202.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1007.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 529.1636363636364,
+                "width": 401.8181818181818,
+                "x": 186.6909090909091,
+                "y": 84.07272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1008.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 532.8727272727273,
+                "width": 466.1090909090909,
+                "x": 124.87272727272727,
+                "y": 202.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1009.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 200.2909090909091,
+                "width": 191.63636363636365,
+                "x": 178.03636363636363,
+                "y": 275.7090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1015.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 374.6181818181818,
+                "width": 365.96363636363634,
+                "x": 77.89090909090909,
+                "y": 223.78181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1020.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 361.0181818181818,
+                "width": 464.8727272727272,
+                "x": 29.672727272727272,
+                "y": 86.54545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1028.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 385.7454545454545,
+                "width": 311.5636363636363,
+                "x": 59.345454545454544,
+                "y": 232.43636363636364
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1029.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 314.0363636363636,
+                "width": 186.6909090909091,
+                "x": 210.1818181818182,
+                "y": 202.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1030.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 561.3454545454545,
+                "width": 598.8727272727273,
+                "x": 18.763636363636362,
+                "y": 304.9090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1031.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 379.56363636363636,
+                "width": 241.0909090909091,
+                "x": 160.72727272727272,
+                "y": 79.12727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1034.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 323.9272727272727,
+                "width": 186.6909090909091,
+                "x": 269.5272727272727,
+                "y": 40.8
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1037.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 406.5454545454545,
+                "width": 475.34545454545446,
+                "x": 128.21818181818182,
+                "y": 342.4363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1041.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 349.8909090909091,
+                "width": 320.21818181818185,
+                "x": 132.29090909090905,
+                "y": 69.23636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1045.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 210.1818181818182,
+                "width": 322.6909090909091,
+                "x": 71.7090909090909,
+                "y": 391.92727272727274
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1048.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 282.81818181818187,
+                "width": 280.0363636363636,
+                "x": 356.0727272727273,
+                "y": 50.07272727272728
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1052.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 293.0181818181818,
+                "width": 270.76363636363635,
+                "x": 228.72727272727272,
+                "y": 255.9272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1053.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 246.0363636363636,
+                "width": 215.12727272727273,
+                "x": 118.69090909090909,
+                "y": 197.8181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1060.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 438.9090909090909,
+                "width": 503.2,
+                "x": 84.07272727272726,
+                "y": 160.72727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1062.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 494.54545454545456,
+                "width": 427.78181818181815,
+                "x": 28.436363636363637,
+                "y": 119.92727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1063.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 529.1636363636363,
+                "width": 526.690909090909,
+                "x": 55.636363636363626,
+                "y": 59.345454545454544
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1064.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 290.5454545454545,
+                "width": 384.5090909090909,
+                "x": 108.8,
+                "y": 294.25454545454545
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1069.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 464.8727272727272,
+                "width": 358.5454545454545,
+                "x": 103.85454545454544,
+                "y": 97.67272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1080.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 370.9090909090909,
+                "width": 304.1454545454545,
+                "x": 126.10909090909091,
+                "y": 248.5090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1081.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 356.0727272727272,
+                "width": 315.27272727272725,
+                "x": 143.4181818181818,
+                "y": 272.0
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1082.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 759.9272727272726,
+                "width": 728.6545454545453,
+                "x": 20.32727272727277,
+                "y": 29.709090909090907
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1086.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 367.4545454545455,
+                "width": 342.4363636363636,
+                "x": 212.65454545454543,
+                "y": 250.18181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1088.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 600.8727272727273,
+                "width": 511.8545454545455,
+                "x": 35.85454545454545,
+                "y": 17.30909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1092.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 648.9090909090909,
+                "width": 486.2909090909091,
+                "x": 42.21818181818181,
+                "y": 181.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1094.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 466.10909090909087,
+                "width": 501.9636363636364,
+                "x": 34.61818181818182,
+                "y": 243.56363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1095.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 307.8545454545455,
+                "width": 215.12727272727273,
+                "x": 185.45454545454544,
+                "y": 174.3272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1101.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 416.6545454545454,
+                "width": 433.9636363636364,
+                "x": 59.345454545454544,
+                "y": 66.76363636363637
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1107.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 448.76363636363635,
+                "width": 419.0545454545454,
+                "x": 181.38181818181818,
+                "y": 251.74545454545452
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1108.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 583.5636363636363,
+                "width": 419.1272727272727,
+                "x": 89.01818181818182,
+                "y": 22.254545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1110.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 455.0181818181817,
+                "width": 619.1999999999999,
+                "x": 42.21818181818181,
+                "y": 522.2545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1111.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 522.2545454545455,
+                "width": 384.65454545454537,
+                "x": 198.58181818181816,
+                "y": 207.96363636363634
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1112.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 227.49090909090907,
+                "width": 279.4181818181818,
+                "x": 126.10909090909091,
+                "y": 228.72727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1113.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 544.1454545454545,
+                "width": 542.5818181818181,
+                "x": 103.19999999999999,
+                "y": 159.49090909090907
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1120.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 497.0181818181818,
+                "width": 437.6727272727273,
+                "x": 128.58181818181816,
+                "y": 179.27272727272728
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1127.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 330.10909090909087,
+                "width": 296.72727272727275,
+                "x": 139.70909090909092,
+                "y": 199.05454545454546
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1128.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 670.8,
+                "width": 459.70909090909083,
+                "x": 301.78181818181815,
+                "y": 203.27272727272725
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1129.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 246.03636363636363,
+                "width": 206.4727272727273,
+                "x": 248.5090909090909,
+                "y": 116.21818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1133.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 377.0909090909091,
+                "width": 365.9636363636364,
+                "x": 189.16363636363636,
+                "y": 178.03636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1137.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 448.79999999999995,
+                "width": 445.09090909090907,
+                "x": 39.56363636363636,
+                "y": 81.6
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1150.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 327.6363636363636,
+                "width": 314.0363636363636,
+                "x": 147.12727272727273,
+                "y": 140.94545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1153.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 379.5636363636363,
+                "width": 341.23636363636365,
+                "x": 143.4181818181818,
+                "y": 316.5090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1157.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 479.70909090909083,
+                "width": 454.98181818181814,
+                "x": 82.83636363636363,
+                "y": 137.23636363636362
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1162.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 464.8727272727272,
+                "width": 433.96363636363634,
+                "x": 35.85454545454545,
+                "y": 106.32727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1163.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 412.79999999999995,
+                "width": 372.1454545454545,
+                "x": 95.38181818181818,
+                "y": 333.0545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1164.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 280.03636363636366,
+                "width": 233.6727272727273,
+                "x": 258.70909090909095,
+                "y": 143.72727272727275
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1165.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 326.4,
+                "width": 286.83636363636367,
+                "x": 206.47272727272727,
+                "y": 163.2
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1166.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 416.6545454545454,
+                "width": 457.45454545454544,
+                "x": 38.32727272727273,
+                "y": 259.6363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1167.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 372.9272727272728,
+                "width": 424.52727272727276,
+                "x": 331.88181818181823,
+                "y": 141.9
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1177.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 450.0363636363636,
+                "width": 399.3454545454545,
+                "x": 56.872727272727275,
+                "y": 134.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1182.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 531.6363636363636,
+                "width": 548.8363636363636,
+                "x": 76.61818181818181,
+                "y": 43.78181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1183.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 400.58181818181816,
+                "width": 372.1454545454546,
+                "x": 82.83636363636363,
+                "y": 128.58181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1191.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 286.8363636363636,
+                "width": 186.69090909090912,
+                "x": 154.54545454545453,
+                "y": 267.05454545454546
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1200.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 451.890909090909,
+                "width": 336.1818181818182,
+                "x": 204.83636363636361,
+                "y": 268.94545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1206.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 306.6181818181818,
+                "width": 222.5454545454545,
+                "x": 199.05454545454546,
+                "y": 318.9818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1207.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 523.8181818181818,
+                "width": 451.8909090909091,
+                "x": 56.29090909090908,
+                "y": 334.61818181818177
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1208.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 270.76363636363635,
+                "width": 176.8,
+                "x": 403.05454545454546,
+                "y": 258.4
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1221.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 550.3999999999999,
+                "width": 483.16363636363633,
+                "x": 70.36363636363636,
+                "y": 312.7272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1224.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 647.3454545454545,
+                "width": 536.3272727272727,
+                "x": 193.89090909090908,
+                "y": 107.89090909090908
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1232.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 436.43636363636364,
+                "width": 353.59999999999997,
+                "x": 124.87272727272727,
+                "y": 140.94545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1235.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 295.4909090909091,
+                "width": 314.0363636363636,
+                "x": 133.52727272727273,
+                "y": 142.1818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1237.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 720.8,
+                "width": 521.7454545454544,
+                "x": 49.45454545454545,
+                "y": 48.21818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1244.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 481.9909090909091,
+                "width": 477.30000000000007,
+                "x": 408.1090909090909,
+                "y": 21.10909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1248.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 342.43636363636364,
+                "width": 209.52727272727276,
+                "x": 500.3636363636363,
+                "y": 182.94545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1252.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 281.8909090909091,
+                "width": 206.4727272727273,
+                "x": 163.2,
+                "y": 195.34545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1254.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 584.8,
+                "width": 520.690909090909,
+                "x": 35.9636363636364,
+                "y": 96.94545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1256.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 406.76363636363635,
+                "width": 386.9818181818182,
+                "x": 59.345454545454544,
+                "y": 213.89090909090908
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1259.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 337.7454545454545,
+                "width": 415.9272727272727,
+                "x": 89.12727272727273,
+                "y": 312.7272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1265.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 283.1272727272727,
+                "width": 320.2181818181818,
+                "x": 129.8181818181818,
+                "y": 217.6
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1268.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 323.67272727272723,
+                "width": 564.4727272727272,
+                "x": 153.23636363636362,
+                "y": 15.636363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1270.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 423.7454545454545,
+                "width": 331.49090909090904,
+                "x": 315.8545454545454,
+                "y": 179.8181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1275.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 279.41818181818184,
+                "width": 368.4363636363636,
+                "x": 98.9090909090909,
+                "y": 207.7090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1277.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 291.7818181818182,
+                "width": 236.14545454545453,
+                "x": 170.61818181818182,
+                "y": 267.05454545454546
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1278.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 323.92727272727274,
+                "width": 377.0909090909091,
+                "x": 143.4181818181818,
+                "y": 468.58181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1280.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 332.58181818181816,
+                "width": 361.0181818181818,
+                "x": 70.47272727272727,
+                "y": 63.054545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1284.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 330.1090909090909,
+                "width": 262.10909090909087,
+                "x": 91.49090909090908,
+                "y": 55.63636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1286.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 368.4363636363636,
+                "width": 511.8545454545454,
+                "x": 27.2,
+                "y": 133.52727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1287.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 415.4181818181818,
+                "width": 285.6,
+                "x": 160.72727272727272,
+                "y": 173.0909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1291.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 490.9818181818182,
+                "width": 467.5272727272727,
+                "x": 231.41818181818178,
+                "y": 117.27272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1296.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 278.1818181818182,
+                "width": 242.3272727272727,
+                "x": 82.83636363636363,
+                "y": 55.63636363636363
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1300.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 332.5818181818182,
+                "width": 307.8545454545455,
+                "x": 150.83636363636364,
+                "y": 236.14545454545453
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1306.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 369.67272727272723,
+                "width": 259.6363636363636,
+                "x": 122.39999999999999,
+                "y": 119.92727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1307.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 469.81818181818187,
+                "width": 410.4727272727273,
+                "x": 148.36363636363637,
+                "y": 176.79999999999998
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1309.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 307.8545454545455,
+                "width": 228.7272727272727,
+                "x": 204.0,
+                "y": 155.78181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1323.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 291.78181818181815,
+                "width": 284.3636363636364,
+                "x": 101.38181818181818,
+                "y": 318.9818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1332.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 470.6545454545455,
+                "width": 542.5818181818181,
+                "x": 142.29090909090908,
+                "y": 436.2545454545454
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1333.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 505.05454545454546,
+                "width": 536.3272727272727,
+                "x": 23.454545454545453,
+                "y": 201.7090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1335.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 279.4181818181818,
+                "width": 273.23636363636365,
+                "x": 281.8909090909091,
+                "y": 153.3090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1341.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 307.8545454545455,
+                "width": 247.27272727272725,
+                "x": 186.6909090909091,
+                "y": 227.4909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1347.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 239.85454545454547,
+                "width": 323.9272727272727,
+                "x": 126.10909090909091,
+                "y": 196.58181818181816
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1350.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 600.4363636363636,
+                "width": 522.2545454545455,
+                "x": 46.90909090909091,
+                "y": 193.89090909090908
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1351.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 325.16363636363633,
+                "width": 427.78181818181815,
+                "x": 51.92727272727272,
+                "y": 281.8909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1355.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 471.0545454545454,
+                "width": 441.3818181818182,
+                "x": 127.34545454545454,
+                "y": 171.85454545454544
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1360.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 295.4909090909091,
+                "width": 299.19999999999993,
+                "x": 116.21818181818182,
+                "y": 237.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1364.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 272.0,
+                "width": 296.72727272727275,
+                "x": 190.4,
+                "y": 305.3818181818182
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1366.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 249.74545454545455,
+                "width": 248.50909090909084,
+                "x": 268.2909090909091,
+                "y": 118.69090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1367.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 239.23636363636365,
+                "width": 230.89090909090913,
+                "x": 447.87272727272733,
+                "y": 154.85454545454547
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1372.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 566.0363636363636,
+                "width": 370.58181818181816,
+                "x": 12.509090909090908,
+                "y": 64.10909090909091
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1374.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 330.1090909090909,
+                "width": 283.1272727272727,
+                "x": 196.58181818181816,
+                "y": 121.16363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1375.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 265.81818181818176,
+                "width": 253.45454545454544,
+                "x": 158.25454545454545,
+                "y": 328.8727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1382.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 364.32727272727266,
+                "width": 448.76363636363635,
+                "x": 187.63636363636363,
+                "y": 378.4
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1387.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 290.5454545454545,
+                "width": 260.8727272727273,
+                "x": 199.05454545454546,
+                "y": 317.74545454545455
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1394.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 731.7818181818182,
+                "width": 637.9636363636364,
+                "x": 65.67272727272727,
+                "y": 207.96363636363634
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1396.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 416.6545454545455,
+                "width": 419.1272727272727,
+                "x": 39.56363636363636,
+                "y": 285.59999999999997
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1397.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 485.8909090909091,
+                "width": 431.49090909090904,
+                "x": 129.8181818181818,
+                "y": 87.78181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1400.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 394.0363636363636,
+                "width": 342.4363636363636,
+                "x": 267.3818181818182,
+                "y": 106.32727272727271
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1401.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 332.58181818181816,
+                "width": 233.67272727272723,
+                "x": 238.61818181818182,
+                "y": 106.32727272727273
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1402.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 343.70909090909095,
+                "width": 302.9090909090909,
+                "x": 98.9090909090909,
+                "y": 314.0363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1403.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 425.30909090909086,
+                "width": 422.83636363636356,
+                "x": 114.98181818181818,
+                "y": 139.70909090909092
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1404.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 445.0909090909091,
+                "width": 365.9636363636364,
+                "x": 143.4181818181818,
+                "y": 283.1272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1408.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 247.27272727272725,
+                "width": 200.29090909090908,
+                "x": 149.6,
+                "y": 270.76363636363635
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1409.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 437.81818181818176,
+                "width": 389.34545454545446,
+                "x": 229.85454545454544,
+                "y": 323.67272727272723
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1410.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 487.8545454545455,
+                "width": 501.9272727272727,
+                "x": 154.79999999999998,
+                "y": 329.9272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1412.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 481.59999999999997,
+                "width": 509.74545454545444,
+                "x": 134.47272727272727,
+                "y": 376.8363636363636
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1417.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 289.3090909090909,
+                "width": 260.8727272727273,
+                "x": 189.16363636363633,
+                "y": 174.3272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1420.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 175.56363636363633,
+                "width": 195.34545454545457,
+                "x": 145.89090909090908,
+                "y": 228.72727272727272
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1423.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 249.74545454545452,
+                "width": 270.76363636363635,
+                "x": 100.14545454545454,
+                "y": 149.6
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1425.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 645.7818181818182,
+                "width": 656.7272727272726,
+                "x": 48.47272727272727,
+                "y": 18.763636363636362
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1429.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 435.20000000000005,
+                "width": 337.5272727272727,
+                "x": 149.6,
+                "y": 213.89090909090908
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1431.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 736.4727272727272,
+                "width": 722.3999999999999,
+                "x": 29.709090909090907,
+                "y": 40.65454545454545
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1434.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 528.5090909090908,
+                "width": 517.5636363636363,
+                "x": 26.58181818181818,
+                "y": 236.1090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1442.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 472.2181818181818,
+                "width": 337.74545454545455,
+                "x": 121.96363636363635,
+                "y": 420.61818181818177
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1447.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 327.32727272727277,
+                "width": 246.65454545454546,
+                "x": 232.74545454545458,
+                "y": 123.32727272727274
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1448.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 216.36363636363637,
+                "width": 227.49090909090907,
+                "x": 143.4181818181818,
+                "y": 288.07272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1455.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 333.81818181818187,
+                "width": 307.8545454545455,
+                "x": 161.96363636363637,
+                "y": 325.16363636363633
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1458.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 310.3272727272727,
+                "width": 293.0181818181818,
+                "x": 186.6909090909091,
+                "y": 220.07272727272726
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1459.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 483.16363636363633,
+                "width": 481.6,
+                "x": 136.03636363636363,
+                "y": 184.5090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1460.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 297.9636363636364,
+                "width": 275.70909090909095,
+                "x": 103.85454545454544,
+                "y": 206.47272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1461.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 306.61818181818177,
+                "width": 337.5272727272727,
+                "x": 143.4181818181818,
+                "y": 333.8181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1469.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 255.9272727272727,
+                "width": 254.69090909090912,
+                "x": 137.23636363636362,
+                "y": 166.9090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1470.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 411.7090909090909,
+                "width": 410.4727272727272,
+                "x": 150.83636363636364,
+                "y": 9.89090909090909
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1475.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 436.43636363636364,
+                "width": 440.1454545454545,
+                "x": 28.436363636363637,
+                "y": 43.27272727272727
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1477.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "rect",
+                "height": 426.54545454545456,
+                "width": 484.6545454545455,
+                "x": 28.436363636363637,
+                "y": 33.38181818181818
+            }
+        ],
+        "class": "image",
+        "filename": "../intel/input/train/Type_3_downscale/1479.jpg"
+    }
+]
