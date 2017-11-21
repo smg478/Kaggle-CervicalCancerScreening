@@ -7,8 +7,7 @@ The problem was solved in 2 stages:
 1. Train an object detector ([R-FCN](https://github.com/YuwenXiong/py-R-FCN) - Caffe) and crop out ROIs autometically.
 2. Classify the cropped ROIs using a seperate model (VGG16, VGG19, InceptionV3, Xception, Res50) ([Keras](https://keras.io/applications/)).
 
-This implementation only contains the 2nd part of the solution. Therefore, only keras models are available here.
-
+This implementation only contains the 2nd part of the solution. Therefore, only keras models are available here. Thanks to [ZFTurbo](https://github.com/ZFTurbo) for his [keras implementation](https://www.kaggle.com/zfturbo/fishy-keras-lb-1-25267) of Fisheries Monitoring classification challange.
 
 ## Requirements
 
@@ -18,9 +17,6 @@ sklearn
 
 cv2
 
-tqdm
-
-h5py
 
 ## Usage
 
@@ -39,7 +35,3 @@ Run train_finetune_from_directory.py (reads images from hard drive at every mini
 ### Test and submit
 
 Run prediction_submission.py to predict and generate submissions
-
-
-
- 
