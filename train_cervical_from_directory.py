@@ -41,9 +41,6 @@ from keras import __version__ as keras_version
 from keras.preprocessing.image import ImageDataGenerator
 from keras.constraints import maxnorm
 
-print np.__version__
-#print theano.__version__
-
 #---------------------------------------- Ground truth -----------------------------------------------------------------
 
 # dimensions of our images.
@@ -71,16 +68,11 @@ else:
 
 # create the base pre-trained model
 
-# base_model = InceptionV3(weights='imagenet', include_top=False)
-# 299x299 Both th and tf and dim ordering
-# base_model = applications.VGG16(weights='imagenet', include_top=False,input_tensor=input_tensor)
-# 224x224 Both th and tf and dim ordering
-base_model = applications.VGG19(weights='imagenet', include_top=False,input_tensor=input_tensor)
-# 224x224 Both th and tf and dim ordering
+base_model = InceptionV3(weights='imagenet', include_top=False)
+#base_model = applications.VGG16(weights='imagenet', include_top=False,input_tensor=input_tensor)
+#base_model = applications.VGG19(weights='imagenet', include_top=False,input_tensor=input_tensor)
 #base_model = applications.ResNet50(weights='imagenet', include_top=False, input_tensor=input_tensor, pooling='avg')
-# 224x224 both th and tf and dim ordering
 #base_model = Xception(weights='imagenet', include_top=False,input_tensor=input_tensor,pooling='avg')
-# 299x299 only tf
 
 
 # add a global spatial average pooling layer
@@ -213,7 +205,6 @@ history = model.fit_generator(
 
 val_acc = history.history['val_acc'][-1]
 
-# save model
 #model.save('flow_xception__rot30_zoom70_sh20_batch08_drop50_val_acc_%s.h5'%val_acc)                #save trained model
 #model.save('finetune_fc67_Res50.h5')                                  #save fc layer for pre-trained model
 
