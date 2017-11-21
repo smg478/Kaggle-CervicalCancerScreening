@@ -3,8 +3,6 @@ from __future__ import division
 
 import os.path
 import densenet
-#import densenet_fcn
-
 
 import os
 import six
@@ -22,37 +20,25 @@ warnings.filterwarnings("ignore")
 
 np.random.seed(2016)
 random.seed(2016)
-
+from keras import backend as K
 from keras import applications
 from keras.applications.resnet50 import ResNet50
 from keras.applications.vgg16 import VGG16
 from keras.applications.vgg19 import VGG19
 from keras.applications.inception_v3 import InceptionV3
 from keras.applications.xception import Xception
-
-from keras.models import Model, load_model
-from keras.models import Sequential
+from keras.models import Model, load_model, Sequential
 from keras import layers
-
 from keras.layers import Input, Activation, merge, Dense, Flatten, GlobalAveragePooling2D, Dropout, Conv2D, AveragePooling2D
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, AveragePooling2D
 from keras.layers.normalization import BatchNormalization
-
 from keras.regularizers import l2
-from keras import backend as K
-from keras.callbacks import EarlyStopping, ModelCheckpoint
-
-#from keras.layers.core import Dense, Dropout, Flatten
 from keras.optimizers import SGD, Adagrad, Adam, Nadam
-from keras.callbacks import EarlyStopping, ReduceLROnPlateau, CSVLogger
+from keras.callbacks import EarlyStopping, ReduceLROnPlateau, CSVLogger, ModelCheckpoint
 from keras.utils import np_utils
 from keras.constraints import maxnorm
 from keras import __version__ as keras_version
 from keras.preprocessing.image import ImageDataGenerator
-
-#from keras import backend as K
-#K.set_image_dim_ordering('th')
-
 
 from sklearn.cross_validation import KFold
 from sklearn.metrics import log_loss
@@ -62,10 +48,6 @@ print(check_output(["ls", "../input"]).decode("utf8"))
 
 
 #------------------------------------------------------------------------------------------------
-
-
-# ------------------------------------ From Fish Keras ------------------------------------------
-
 
 def get_im_cv2(path):
     img = cv2.imread(path)
@@ -176,92 +158,21 @@ def merge_several_folds_mean(data, nfolds):
     a /= nfolds
     return a.tolist()
 
-# ------------------------------- create model ---------------
-
-#--------------------- From scratch -------------------------
-'''
-def create_model():
-    input_shape = (224, 224, 3)
-
-    model = Sequential()
-    model.add(Conv2D(32, (3, 3), padding='same', input_shape=input_shape))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-    model.add(Dropout(0.25))
-
-    model.add(Conv2D(32, (3, 3), padding='same'))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-    model.add(Dropout(0.25))
-
-    model.add(Conv2D(64, (3, 3), padding='same'))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-    model.add(Dropout(0.25))
-
-    model.add(Conv2D(64, (3, 3), padding='same'))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-    model.add(Dropout(0.25))
-
-    model.add(Conv2D(128, (3, 3), padding='same'))
-    model.add(Activation('relu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-    model.add(Dropout(0.25))
-
-    model.add(Flatten())
-    model.add(Dense(512))
-    model.add(Activation('relu'))
-    model.add(Dropout(0.5))
-    model.add(Dense(3))
-    model.add(Activation('softmax'))
-
-    #sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-    model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
-
-    for i, layer in enumerate(model.layers):
-        print(i, layer.name)
-
-    return model
-
-
-
-'''
-#-------------------------- Pretrained ---------------------------------------------------------------------------------
+#-------------------------- Fine-tune Pretrained models -----------------------------------------
 
 
 def create_model():
 
     input_tensor = Input(shape=(224,224, 3))
 
-    # create the base pre-trained model
-    #base_model = applications.InceptionV3(weights='imagenet', include_top=False, input_tensor=input_tensor)    #299x299
-    base_model = applications.VGG16(weights='imagenet', include_top=False,input_tensor=input_tensor)            #224x224
-    #base_model = applications.ResNet50(weights='imagenet', include_top=False, input_tensor=input_tensor)       #224x224
-    #base_model = Xception(weights='imagenet', include_top=False, input_tensor=input_tensor)        #299x299
+    base_model = applications.InceptionV3(weights='imagenet', include_top=False, input_tensor=input_tensor)   
+    #base_model = applications.VGG16(weights='imagenet', include_top=False,input_tensor=input_tensor)           
+    #base_model = applications.ResNet50(weights='imagenet', include_top=False, input_tensor=input_tensor)      
+    #base_model = Xception(weights='imagenet', include_top=False, input_tensor=input_tensor)                    
 
-    # DenseNet-121
-    #depth = 22  # 40
-    #nb_dense_block = 3 #3
-    #growth_rate = 8  # 12
-    #nb_filter = 16  # 16
-    #dropout_rate = 0.0  # 0.0 for data augmentation
-    #bottleneck = True
-    #reduction = 0.0
-    #base_model = densenet.DenseNet((224,224,3), classes=3, depth=depth, nb_dense_block=nb_dense_block,
-    #                          growth_rate=growth_rate, nb_filter=nb_filter, dropout_rate=dropout_rate,
-    #                          bottleneck=bottleneck, reduction=reduction, include_top=False, weights=None,
-    #                          input_tensor=input_tensor)    # output: globalAveragePooling2D#
-
-    #base_model = densenet_fcn.DenseNetFCN((128,128,3), nb_dense_block=5, growth_rate=16, nb_layers_per_block=4,
-    #            reduction=0.0, dropout_rate=0.0, weight_decay=1E-4, init_conv_filters=48,
-    #            include_top=False, weights=None, input_tensor=input_tensor, classes=3, activation='softmax',
-    #            upsampling_conv=128, upsampling_type='subpixel')
-
-    # add a global spatial average pooling layer
     y = base_model.output
-    y = Flatten()(y)  # Res50, vgg16, vgg19
-    # y = GlobalAveragePooling2D()(y)    # xception,inception
+    #y = Flatten()(y)                                # Res50, vgg16, vgg19
+    y = GlobalAveragePooling2D()(y)                 # xception,inception
     y = layers.noise.GaussianNoise(0.5)(y)
 
     y = Dense(2048)(y)
@@ -270,39 +181,20 @@ def create_model():
     y = BatchNormalization()(y)
     #y = Dropout(0.5)(y)
 
-
     predictions = Dense(3, activation='softmax')(y)
-
-    #x = layers.Dense(1024)(x)
-    #x = layers.BatchNormalization()(x)
-    #x = layers.advanced_activations.LeakyReLU()(x)
-    #x = layers.Dropout(0.25)(x)
-
-    # this is the model we will train
+    
     model = Model(input=input_tensor, output=predictions)
     print('Model created.')
 
     #model.load_weights('densenet/densenet_1500Crop_rot90_best_1.h5',by_name=False)
-    #model.load_weights('xception/xception_1500Crop_1.h5',by_name=False)
-    #model.load_weights('models/finetune_fc_vgg19.h5',by_name=True)
     #print('Weights loaded.')
 
-    #train_top_only = False
-
-    #if train_top_only:
-    #for layer in base_model.layers:                     # vgg19 11,17 layer freeze, Res50 91,140,152,162,172 layer freeze, xception 85, inception 151
-    #        layer.trainable = False
-    #else:
     #for layer in model.layers[:85]:
     #        layer.trainable = False
     #for layer in model.layers[85:]:
     #        layer.trainable = True
 
-    # compile the model (should be done *after* setting layers to non-trainable)
-    #model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])   #Fine-tune fc layer
-    #model.compile(optimizer=SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True), loss='categorical_crossentropy', metrics=['accuracy'])
     model.compile(loss='categorical_crossentropy', optimizer = Adam(lr=1e-4), metrics=["accuracy"])  ##1e4
-    #model.compile(loss='categorical_crossentropy', optimizer = Nadam(), metrics=["accuracy"])
     print('Model loaded.')
 
     for i, layer in enumerate(model.layers):
@@ -311,8 +203,6 @@ def create_model():
     #model.summary()
 
     return model
-
-
 
 #-----------------------------------------------------------------------------------------------------------------------
 
@@ -407,20 +297,15 @@ def run_cross_validation_create_models(nfolds=5):
             print('Using real-time data augmentation.')
             # This will do preprocessing and realtime data augmentation:
 
-            datagen = ImageDataGenerator(#rescale=1. /255,
-                featurewise_center=False,  # set input mean to 0 over the dataset
-                #samplewise_center=True,  # set each sample mean to 0
-                #featurewise_std_normalization=True,  # divide inputs by std of the dataset
-                #samplewise_std_normalization=True,  # divide each input by its std
-                #zca_whitening=True,  # apply ZCA whitening
-                rotation_range=90,  # randomly rotate images in the range (degrees, 0 to 180)
-                width_shift_range=0.0,  # randomly shift images horizontally (fraction of total width)
-                height_shift_range=0.0,  # randomly shift images vertically (fraction of total height)
-                horizontal_flip=True,  # randomly flip images
-                vertical_flip=False,
-                #shear_range=0.2,
-                zoom_range=0.0,
-                fill_mode='nearest')  # randomly flip images
+            datagen = ImageDataGenerator(featurewise_center=False,  
+                                        rotation_range=90,  
+                                        width_shift_range=0.0,  
+                                        height_shift_range=0.0,  
+                                        horizontal_flip=True,  
+                                        vertical_flip=False,
+                                        #shear_range=0.2,
+                                        zoom_range=0.0,
+                                        fill_mode='nearest')
 
             # Compute quantities required for featurewise normalization
             # (std, mean, and principal components if ZCA whitening is applied).
