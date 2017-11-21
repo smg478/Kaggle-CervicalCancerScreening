@@ -5,7 +5,7 @@ This repository contains the keras solution files of the competition. Results pr
 The problem was solved in 2 stages:
 
 1. Train an object detector ([R-FCN](https://github.com/YuwenXiong/py-R-FCN) - Caffe) and crop out ROIs autometically.
-2. Classify the cropped ROIs using a seperate model (VGG16, VGG19, InceptionV3, Xception, Res50) (Keras).
+2. Classify the cropped ROIs using a seperate model (VGG16, VGG19, InceptionV3, Xception, Res50) ([Keras](https://keras.io/applications/)).
 
 This implementation only contains the 2nd part of the solution. Therefore, only keras models are available here.
 
