@@ -2,61 +2,37 @@
 
 from __future__ import division
 
-import os.path
-import densenet
-
-import os
-import six
-import numpy as np
-import pandas as pd
-import cv2
-import glob
-import random
 import datetime
+import glob
+import os
+import os.path
+import random
 import time
 import warnings
-import matplotlib.pyplot as plt
 
-warnings.filterwarnings("ignore")
-
-np.random.seed(2016)
-random.seed(2016)
-from keras import backend as K
-from keras import applications
-from keras.applications.resnet50 import ResNet50
-from keras.applications.vgg16 import VGG16
-from keras.applications.vgg19 import VGG19
-from keras.applications.inception_v3 import InceptionV3
-from keras.applications.xception import Xception
-from keras.models import Model, load_model, Sequential
-from keras import layers
-from keras.layers import Input, Activation, merge, Dense, Flatten, GlobalAveragePooling2D, Dropout, Conv2D, AveragePooling2D
-from keras.layers.convolutional import Convolution2D, MaxPooling2D, AveragePooling2D
-from keras.layers.normalization import BatchNormalization
-from keras.regularizers import l2
-from keras.optimizers import SGD, Adagrad, Adam, Nadam
-from keras.callbacks import EarlyStopping, ReduceLROnPlateau, CSVLogger, ModelCheckpoint
-from keras.utils import np_utils
-from keras.constraints import maxnorm
+import cv2
+import numpy as np
+import pandas as pd
 from keras import __version__ as keras_version
+from keras import applications
+from keras import layers
+from keras.callbacks import EarlyStopping, ReduceLROnPlateau, CSVLogger, ModelCheckpoint
+from keras.layers import Input, Dense, GlobalAveragePooling2D
+from keras.layers.normalization import BatchNormalization
+from keras.models import Model
+from keras.optimizers import Adam
 from keras.preprocessing.image import ImageDataGenerator
-
+from keras.utils import np_utils
 from sklearn.cross_validation import KFold
 from sklearn.metrics import log_loss
 
-from subprocess import check_output
-print(check_output(["ls", "../input"]).decode("utf8"))
+warnings.filterwarnings("ignore")
+np.random.seed(2016)
+random.seed(2016)
 
-#-------------------------------------- Definitions ----------------------------------------------------------
 
 def get_im_cv2(path):
     img = cv2.imread(path)
-
-    #print img.shape
-    #print type(img)
-    #resized = np.resize(img, (224, 224,3))
-    #plt.imshoe(img)
-
     resized = cv2.resize(img, (224, 224), cv2.INTER_LINEAR)
     return resized
 
@@ -72,7 +48,7 @@ def load_train():
     for fld in folders:
         index = folders.index(fld)
         print('Load folder {} (Index: {})'.format(fld, index))
-        path = os.path.join('..', 'input', 'train_cropped', fld, '*.jpg')        # input folder
+        path = os.path.join('..', 'input', 'train_cropped', fld, '*.jpg')
         files = glob.glob(path)
         for fl in files:
             flbase = os.path.basename(fl)
@@ -88,7 +64,6 @@ def load_train():
 def load_test():
     path = os.path.join('..', 'input', 'test', '*.jpg')
     files = sorted(glob.glob(path))
-
     X_test = []
     X_test_id = []
     for fl in files:
@@ -96,7 +71,6 @@ def load_test():
         img = get_im_cv2(fl)
         X_test.append(img)
         X_test_id.append(flbase)
-
     return X_test, X_test_id
 
 
@@ -110,19 +84,13 @@ def create_submission(predictions, test_id, info):
 
 def read_and_normalize_train_data():
     train_data, train_target, train_id = load_train()
-
     print('Convert to numpy...')
     train_data = np.array(train_data, dtype=np.uint8)
     train_target = np.array(train_target, dtype=np.uint8)
-
-    #print('Reshape...')
-    #train_data = train_data.transpose((0,3, 1, 2))
-
     print('Convert to float...')
     train_data = train_data.astype('float32')
     train_data = train_data / 255
-    train_target = np_utils.to_categorical(train_target, 3)   # Train class = 3
-
+    train_target = np_utils.to_categorical(train_target, 3)  # Train class = 3
     print('Train shape:', train_data.shape)
     print(train_data.shape[0], 'train samples')
     return train_data, train_target, train_id
@@ -131,24 +99,13 @@ def read_and_normalize_train_data():
 def read_and_normalize_test_data():
     start_time = time.time()
     test_data, test_id = load_test()
-
     test_data = np.array(test_data, dtype=np.uint8)
-    #test_data = test_data.transpose((0, 3, 1, 2))
-
     test_data = test_data.astype('float32')
     test_data = test_data / 255
-
     print('Test shape:', test_data.shape)
     print(test_data.shape[0], 'test samples')
     print('Read and process test data time: {} seconds'.format(round(time.time() - start_time, 2)))
     return test_data, test_id
-
-
-def dict_to_list(d):
-    ret = []
-    for i in d.items():
-        ret.append(i[1])
-    return ret
 
 
 def merge_several_folds_mean(data, nfolds):
@@ -158,52 +115,40 @@ def merge_several_folds_mean(data, nfolds):
     a /= nfolds
     return a.tolist()
 
-#-------------------------- Fine-tune Pretrained models -----------------------------------------
 
 def create_model():
-
-    input_tensor = Input(shape=(224,224, 3))
-
-    base_model = applications.InceptionV3(weights='imagenet', include_top=False, input_tensor=input_tensor)   
-    #base_model = applications.VGG16(weights='imagenet', include_top=False,input_tensor=input_tensor)           
-    #base_model = applications.ResNet50(weights='imagenet', include_top=False, input_tensor=input_tensor)      
-    #base_model = Xception(weights='imagenet', include_top=False, input_tensor=input_tensor)                    
-
+    input_tensor = Input(shape=(224, 224, 3))
+    base_model = applications.InceptionV3(weights='imagenet', include_top=False, input_tensor=input_tensor)
     y = base_model.output
-    #y = Flatten()(y)                                # Res50, vgg16, vgg19
-    y = GlobalAveragePooling2D()(y)                 # xception,inception
+    y = GlobalAveragePooling2D()(y)
     y = layers.noise.GaussianNoise(0.5)(y)
 
     y = Dense(2048)(y)
-    #y = BatchNormalization()(x)
     y = layers.advanced_activations.LeakyReLU(0.2)(y)
     y = BatchNormalization()(y)
-    #y = Dropout(0.5)(y)
 
     predictions = Dense(3, activation='softmax')(y)
-    
+
     model = Model(input=input_tensor, output=predictions)
     print('Model created.')
 
-    #model.load_weights('densenet/densenet_1500Crop_rot90_best_1.h5',by_name=False)
-    #print('Weights loaded.')
+    # model.load_weights('densenet/densenet_1500Crop_rot90_best_1.h5',by_name=False)
+    # print('Weights loaded.')
 
-    #for layer in model.layers[:85]:
+    # for layer in model.layers[:85]:
     #        layer.trainable = False
-    #for layer in model.layers[85:]:
+    # for layer in model.layers[85:]:
     #        layer.trainable = True
 
-    model.compile(loss='categorical_crossentropy', optimizer = Adam(lr=1e-4), metrics=["accuracy"])  ##1e4
+    model.compile(loss='categorical_crossentropy', optimizer=Adam(lr=1e-4), metrics=["accuracy"])  ##1e4
     print('Model loaded.')
 
     for i, layer in enumerate(model.layers):
         print(i, layer.name)
-
-    #model.summary()
+    model.summary()
 
     return model
 
-#-----------------------------------------------------------------------------------------------------------------------
 
 def get_validation_predictions(train_data, predictions_valid):
     pv = []
@@ -213,13 +158,11 @@ def get_validation_predictions(train_data, predictions_valid):
 
 
 def run_cross_validation_create_models(nfolds=5):
-    # input image dimensions
-    batch_size = 64    # vgg=64, resnet50, inception, xception = 8
+    batch_size = 64
     nb_epoch = 200
     random_state = 51
     first_rl = 96
     data_augmentation = True
-
 
     train_data, train_target, train_id = read_and_normalize_train_data()
 
@@ -230,7 +173,6 @@ def run_cross_validation_create_models(nfolds=5):
     models = []
     for train_index, test_index in kf:
         model = create_model()
-
 
         X_train = train_data[train_index]
         Y_train = train_target[train_index]
@@ -243,106 +185,57 @@ def run_cross_validation_create_models(nfolds=5):
         print('Split valid: ', len(X_valid), len(Y_valid))
 
         weights_file = 'vgg16/vgg16_1500Crop_rot90_best_%s.h5' % num_fold
-        #if os.path.exists(weights_file):
+        # if os.path.exists(weights_file):
         #   model.load_weights(weights_file)
         #   print("weights loaded.")
 
-        out_dir = "xception/"
-
+        out_dir = "inceptionv3/"
 
         lr_reducer = ReduceLROnPlateau(monitor='val_loss', factor=np.sqrt(0.1), cooldown=0, patience=20, min_lr=0.5e-6)
         early_stopper = EarlyStopping(monitor='val_loss', min_delta=0.001, patience=50)
         model_checkpoint = ModelCheckpoint(weights_file, monitor="val_acc", save_best_only=True, mode='auto')
-        csv_logger = CSVLogger('cervical_log_%s.csv'%num_fold)
+        csv_logger = CSVLogger('cervical_log_%s.csv' % num_fold)
 
         if not data_augmentation:
             print('Not using data augmentation.')
-
             class_weight = {0: 3.1,
                             1: 1.,
                             2: 1.7}
 
             history = model.fit(X_train, Y_train,
-                      batch_size=batch_size,
-                      epochs=nb_epoch,
-                      validation_data=(X_valid, Y_valid),
-                      shuffle=True,
-                      class_weight=class_weight,
-                      callbacks=[lr_reducer, csv_logger,early_stopper])
+                                batch_size=batch_size,
+                                epochs=nb_epoch,
+                                validation_data=(X_valid, Y_valid),
+                                shuffle=True,
+                                class_weight=class_weight,
+                                callbacks=[lr_reducer, csv_logger, early_stopper])
 
-            # list all data in history
-            print(history.history.keys())
-            # summarize history for accuracy
-            plt.plot(history.history['acc'])
-            plt.plot(history.history['val_acc'])
-            plt.title('model accuracy')
-            plt.ylabel('accuracy')
-            plt.xlabel('epoch')
-            plt.legend(['train', 'test'], loc='upper left')
-            plt.show()
-            # summarize history for loss
-            plt.plot(history.history['loss'])
-            plt.plot(history.history['val_loss'])
-            plt.title('model loss')
-            plt.ylabel('loss')
-            plt.xlabel('epoch')
-            plt.legend(['train', 'test'], loc='upper left')
-            plt.show()
-
-            model.save(
-                'xception/xception_1500Crop_%s.h5' % num_fold)
+            model.save('inceptionv3/inceptionv3_%s.h5' % num_fold)
 
         else:
             print('Using real-time data augmentation.')
-            # This will do preprocessing and realtime data augmentation:
+            datagen = ImageDataGenerator(featurewise_center=False,
+                                         rotation_range=90,
+                                         width_shift_range=0.0,
+                                         height_shift_range=0.0,
+                                         horizontal_flip=True,
+                                         vertical_flip=False,
+                                         # shear_range=0.2,
+                                         zoom_range=0.0,
+                                         fill_mode='nearest')
 
-            datagen = ImageDataGenerator(featurewise_center=False,  
-                                        rotation_range=90,  
-                                        width_shift_range=0.0,  
-                                        height_shift_range=0.0,  
-                                        horizontal_flip=True,  
-                                        vertical_flip=False,
-                                        #shear_range=0.2,
-                                        zoom_range=0.0,
-                                        fill_mode='nearest')
-
-            # Compute quantities required for featurewise normalization
-            # (std, mean, and principal components if ZCA whitening is applied).
             datagen.fit(X_train)
-
             class_weight = {0: 3.2,
                             1: 1.,
                             2: 1.8}
-            # Fit the model on the batches generated by datagen.flow().
             history = model.fit_generator(datagen.flow(X_train, Y_train, batch_size=batch_size),
-                                samples_per_epoch=X_train.shape[0],
-                                validation_data=(X_valid, Y_valid),
-                                epochs=nb_epoch, verbose=1, max_q_size=100,
-                                class_weight=class_weight,
-                                callbacks=[csv_logger,lr_reducer,model_checkpoint,early_stopper])
-            '''
-            # list all data in history
-            print(history.history.keys())
-            # summarize history for accuracy
-            plt.plot(history.history['acc'])
-            plt.plot(history.history['val_acc'])
-            plt.title('model accuracy')
-            plt.ylabel('accuracy')
-            plt.xlabel('epoch')
-            plt.legend(['train', 'test'], loc='upper left')
-            plt.show()
-            # summarize history for loss
-            plt.plot(history.history['loss'])
-            plt.plot(history.history['val_loss'])
-            plt.title('model loss')
-            plt.ylabel('loss')
-            plt.xlabel('epoch')
-            plt.legend(['train', 'test'], loc='upper left')
-            plt.show()
+                                          samples_per_epoch=X_train.shape[0],
+                                          validation_data=(X_valid, Y_valid),
+                                          epochs=nb_epoch, verbose=1, max_q_size=100,
+                                          class_weight=class_weight,
+                                          callbacks=[csv_logger, lr_reducer, model_checkpoint, early_stopper])
 
-            '''
-            # Save classification model weight
-            model.save('vgg16/vgg16_1500Crop_rot90_%s.h5'%num_fold)
+            model.save('vgg16/vgg16_1500Crop_rot90_%s.h5' % num_fold)
 
         predictions_valid = model.predict(X_valid.astype('float32'), batch_size=batch_size, verbose=2)
         score = log_loss(Y_valid, predictions_valid)
@@ -354,7 +247,6 @@ def run_cross_validation_create_models(nfolds=5):
             yfull_train[test_index[i]] = predictions_valid[i]
 
         models.append(model)
-
 
     score = sum_score / len(train_data)
     print("Log_loss train independent avg: ", score)
@@ -385,10 +277,8 @@ def run_cross_validation_process_test(info_string, models):
     create_submission(test_res, test_id, info_string)
 
 
-
 if __name__ == '__main__':
     print('Keras version: {}'.format(keras_version))
     num_folds = 5
     info_string, models = run_cross_validation_create_models(num_folds)
-
     run_cross_validation_process_test(info_string, models)
